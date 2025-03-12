@@ -1,0 +1,233 @@
+/* General container styling */
+.project-background{
+  background-image: url("/public/bg.png"); /* Path to image in public folder */
+  background-size: contain;  /* Ensures it covers the entire div */
+  background-position: top; /* Centers the image */
+  background-repeat: repeat; /* Prevents repetition */
+}
+.project-details-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #ffffff;
+  text-align: center;
+}
+
+/* Project title */
+.project-details-container h2 {
+  font-size: 28px;
+  color: #c43839;
+  margin-bottom: 10px;
+}
+
+/* Project description */
+.project-details-container p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* GitHub link button */
+.github-link {
+  display: inline-flex;
+  align-items: center;
+  background-color: #c43839;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 5px;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.github-link:hover {
+  background-color: #460909;
+}
+
+/* Icon spacing in GitHub link */
+.github-link svg {
+  margin-left: 8px;
+}
+
+/* STAR Method Section */
+.star-method {
+  margin-top: 30px;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  text-align: left;
+}
+
+/* STAR Method Section Titles */
+.star-method h3 {
+  font-size: 22px;
+  color: #222;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* STAR Method Sections */
+.star-section {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-left: 5px solid #c43839;
+  background: #ffffff;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+}
+
+.star-section h4 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.star-section p {
+  font-size: 16px;
+  color: #444;
+  margin-left: 10px;
+}
+
+/* Project Image */
+.project-image {
+  width: 100%;
+  max-width: max-content;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* For large tablets (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .project-details-container {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .project-details-container h2 {
+    font-size: 26px;
+  }
+
+  .star-method h3 {
+    font-size: 21px;
+  }
+
+  .star-section h4 {
+    font-size: 17px;
+  }
+
+  .star-section p {
+    font-size: 15px;
+  }
+
+  .github-link {
+    font-size: 15px;
+    padding: 9px 15px;
+  }
+
+  .project-image {
+    max-width: 100%;
+  }
+}
+
+/* For tablets and small screens (max-width: 768px) */
+@media (max-width: 768px) {
+  .project-details-container {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .project-details-container h2 {
+    font-size: 24px;
+  }
+
+  .star-method h3 {
+    font-size: 20px;
+  }
+
+  .star-section h4 {
+    font-size: 16px;
+  }
+
+  .star-section p {
+    font-size: 14px;
+  }
+
+  .github-link {
+    font-size: 14px;
+    padding: 8px 14px;
+  }
+
+  .project-image {
+    max-width: 100%;
+  }
+}
+
+/* For very small mobile screens (max-width: 480px) */
+@media (max-width: 480px) {
+  .project-details-container {
+    padding: 12px;
+  }
+
+  .project-details-container h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .star-method h3 {
+    font-size: 18px;
+  }
+
+  .star-section h4 {
+    font-size: 14px;
+  }
+
+  .star-section p {
+    font-size: 12px;
+  }
+
+  .github-link {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+
+  .project-image {
+    max-width: 100%;
+  }
+}
+
+/* For extremely small mobile screens (max-width: 320px) */
+@media (max-width: 320px) {
+  .project-details-container {
+    padding: 10px;
+  }
+
+  .project-details-container h2 {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+
+  .star-method h3 {
+    font-size: 16px;
+  }
+
+  .star-section h4 {
+    font-size: 12px;
+  }
+
+  .star-section p {
+    font-size: 10px;
+  }
+
+  .github-link {
+    font-size: 10px;
+    padding: 5px 10px;
+  }
+
+  .project-image {
+    max-width: 100%;
+  }
+}

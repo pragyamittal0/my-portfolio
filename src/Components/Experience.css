@@ -1,0 +1,159 @@
+.experience-background {
+    background-image: url("/public/bg.png"); /* Path to image in public folder */
+    background-size: contain;  /* Ensures it covers the entire div */
+    background-position: middle; /* Centers the image */
+    background-repeat: repeat; /* Prevents repetition */
+}
+
+.experience-container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+.experience-title {
+    font-size: 26px;
+    font-weight: bold;
+    color: #c43839; /* Red color */
+    text-transform: capitalize;
+    text-align: left;
+}
+
+.experience-timeline {
+    position: relative;
+    margin-left: 20px;
+    padding-left: 20px;
+    border-left: 3px solid #c43839; /* Red vertical timeline */
+}
+
+.experience-item {
+    position: relative;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    max-width: 1000px; /* Increased max-width for better readability */
+}
+
+.experience-item::before {
+    content: "";
+    position: absolute;
+    left: -31px;
+    top: 1px;
+    width: 14px;
+    height: 14px;
+    background-color: #c43839; /* Red color */
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 0 0 0 3px #c43839;
+}
+
+.experience-heading {
+    font-size: 20px;
+    font-weight: bold;
+    color: #c43839;
+}
+
+.experience-duration {
+    display: inline-block;
+    background-color: #f0f0f0;
+    padding: 5px 12px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    color: black;
+    margin-top: 5px;
+}
+
+.experience-institution, .experience-description {
+    font-style: italic;
+    color: black;
+    margin-top: 5px;
+    font-weight: 500;
+    text-align: justify;
+    line-height: 1.4; /* Improved readability */
+    max-width: 700px;
+}
+
+/* Styled Link Button */
+.experience-link {
+    display: inline-block;
+    background-color: #c43839; /* Red button */
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 10px;
+}
+
+/* Hover Effect */
+.experience-link:hover {
+    background-color: #a52a2a; /* Darker red for hover effect */
+    text-decoration: none;
+    transform: translateY(-2px); /* Slight lift on hover */
+}
+
+/* Active Click Effect */
+.experience-link:active {
+    background-color: #8b1c1c; /* Even darker red when clicked */
+    transform: translateY(1px);
+}
+
+/* Icon Styling (if using FontAwesome or similar) */
+.experience-link i {
+    margin-left: 5px; /* Space between text and icon */
+}
+/* Responsive Design */
+@media screen and (max-width: 1024px) {
+    .experience-container {
+        max-width: 80%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .experience-container {
+        padding: 10px;
+    }
+
+    .experience-title {
+        font-size: 22px;
+    }
+
+    .experience-heading {
+        font-size: 18px;
+    }
+
+    .experience-item {
+        padding-left: 10px;
+    }
+
+    .experience-item::before {
+        left: -20px;
+        width: 12px;
+        height: 12px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .experience-title {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .experience-timeline {
+        border-left: 2px solid #c43839;
+        margin-left: 10px;
+        padding-left: 10px;
+    }
+
+    .experience-item {
+        margin-bottom: 20px;
+    }
+
+    .experience-item::before {
+        left: -15px;
+        width: 10px;
+        height: 10px;
+    }
+}

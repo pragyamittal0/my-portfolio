@@ -1,0 +1,110 @@
+/* Navbar.css */
+.nav-left {
+    display: flex;
+    justify-content: space-between;  /* Space between the logo and the navigation links */
+    align-items: center;  /* Vertically center the items */
+    margin: 15px;
+    padding: 10px 20px;  /* Add padding around the navbar */
+    background-color: white;  /* Dark background color */
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);  /* Adds a subtle shadow below the navbar */
+  }
+  
+  .nav-div {
+    flex: 1;  /* Make the logo section take up remaining space */
+  }
+  
+  .logo-img {
+    height: 100px;  /* Adjust logo size */
+    width: auto;  /* Maintain aspect ratio */
+    margin-left: 10px;
+  }
+  
+  .nav-right {
+    display: flex;
+    justify-content: flex-end;  /* Align the navigation links to the right */
+    gap: 20px;  /* Space between the links */
+  }
+  
+  .nav-link {
+    color: rgb(49, 4, 4);  /* White text color */
+    text-decoration: none;  /* Remove underline from links */
+    font-size: 16px;  /* Font size for links */
+    padding: 5px 10px;  /* Add some padding around the links */
+    transition: color 0.3s;  /* Smooth color transition for hover effect */
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .nav-link:hover {
+    color: #c43839;  /* Change color on hover */
+    text-shadow: #c43839;
+  }
+  /* For medium screens (tablets and smaller screens) */
+@media only screen and (max-width: 900px) {
+  .nav-left {
+      padding: 10px 15px;  /* Reduce padding on smaller screens */
+  }
+
+  .logo-img {
+      height: 80px;  /* Adjust logo size */
+  }
+
+  .nav-right {
+      gap: 10px;  /* Reduce space between the links */
+  }
+
+  .nav-link {
+      font-size: 14px;  /* Adjust font size for smaller screens */
+      padding: 5px;  /* Adjust padding */
+  }
+}
+
+/* For smaller screens (mobile phones) */
+@media only screen and (max-width: 600px) {
+  .nav-left {
+      flex-direction: column;  /* Stack logo and links vertically */
+      align-items: flex-start;  /* Align items to the left */
+      padding: 10px 10px;  /* Adjust padding */
+  }
+
+  .nav-right {
+       /* Hide navigation links on small screens */
+      flex-direction: column;  /* Stack links vertically */
+      gap: 15px;  /* Space between the links */
+      width: 100%;  /* Make it take up full width */
+  }
+
+  .nav-div {
+      margin-bottom: 10px;  /* Add space between logo and links */
+  }
+
+  .nav-link {
+      font-size: 16px;  /* Keep font size consistent */
+      padding: 8px 12px;  /* Add padding for mobile */
+  }
+
+  /* Show nav-right links when a mobile menu is toggled (e.g. via a hamburger icon) */
+  .nav-toggle {
+      display: block;  /* Display toggle button on small screens */
+      font-size: 20px;
+      cursor: pointer;
+  }
+}
+
+/* For extra small screens (very small mobile screens) */
+@media only screen and (max-width: 400px) {
+  .nav-left {
+      padding: 6px 8px;  /* Further reduce padding for very small screens */
+  }
+
+  .logo-img {
+      height: 60px;  /* Further reduce logo size */
+  }
+
+  .nav-link {
+      font-size: 10px;  /* Adjust font size for very small screens */
+  }
+  .nav-right{
+    font-size: 10px;
+  }
+}

@@ -1,0 +1,126 @@
+.project-bd{
+    background-image: url("/public/background.png");
+    background-size: contain;  /* Ensures it covers the entire div */
+    background-position: bottom; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents repetition */
+}
+.project-container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .project-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #c43839;
+    margin-bottom: 20px;
+  }
+  
+  /* Grid layout for project cards */
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  /* Individual project card */
+  .project-card {
+    background: #f9f9f9;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Project Image */
+  .project-image {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Project Name */
+  .project-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #c43839;
+  }
+  
+  /* Hover effect */
+  .project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* For tablets and small screens (max-width: 768px) */
+@media (max-width: 768px) {
+  .project-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+
+  .project-title {
+    font-size: 24px; /* Slightly smaller font size for tablets */
+  }
+
+  .project-name {
+    font-size: 16px; /* Adjust project name size */
+  }
+}
+
+/* For very small mobile screens (max-width: 480px) */
+@media (max-width: 480px) {
+  .project-container {
+    padding: 15px; /* Reduce padding for smaller screens */
+  }
+
+  .project-title {
+    font-size: 20px; /* Smaller title size */
+    margin-bottom: 15px; /* Adjust space for title */
+  }
+
+  .project-grid {
+    grid-template-columns: 1fr; /* Stack project cards in a single column */
+    gap: 15px; /* Reduce gap between cards */
+  }
+
+  .project-card {
+    padding: 12px; /* Adjust padding in cards */
+  }
+
+  .project-name {
+    font-size: 14px; /* Adjust project name font size */
+  }
+
+  .project-image {
+    max-width: 150px; /* Smaller image size on small phones */
+  }
+}
+
+/* For extremely small mobile screens (max-width: 320px) */
+@media (max-width: 320px) {
+  .project-container {
+    padding: 10px; /* Further reduce padding */
+  }
+
+  .project-title {
+    font-size: 18px; /* Very small title size */
+    margin-bottom: 12px;
+  }
+
+  .project-name {
+    font-size: 12px; /* Smaller project name font size */
+  }
+
+  .project-image {
+    max-width: 120px; /* Even smaller image size */
+  }
+}
