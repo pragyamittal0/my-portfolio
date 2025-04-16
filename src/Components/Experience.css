@@ -1,9 +1,4 @@
-.experience-background {
-    background-image: url("/public/bg.png"); /* Path to image in public folder */
-    background-size: contain;  /* Ensures it covers the entire div */
-    background-position: middle; /* Centers the image */
-    background-repeat: repeat; /* Prevents repetition */
-}
+
 
 .experience-container {
     max-width: 900px;
