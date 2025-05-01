@@ -85,6 +85,20 @@ const ProjectDetails = () => {
           "🚀 Enabled users to receive personalized learning recommendations, reducing the time spent searching for the right resources.\n✅ Improved learning efficiency by ensuring that courses and materials matched users’ existing knowledge levels.\n✅ Provided a diverse range of resources, including structured courses, self-paced open books, and engaging video tutorials.",
       },
     },
+    6: {
+      name: "Food Safety Awareness Platform",
+      image: "/image/project6.png", // Add project image
+      description:
+        "Promoting safe food practices in public venues using research, web technology, and data visualization.",
+      github: "https://github.com/pragyamittal0/Food_safety",
+      starMethod: {
+        situation:
+        "Food safety lapses at public events—such as the sale of expired food—pose health risks due to inadequate oversight and fragmented regulations. A personal experience with expired food at a campus arena exposed these risks firsthand.",
+        task: "To raise awareness and improve transparency, the goal was to create an educational platform combining research findings, interactive learning, and real-time data visualization to promote safer food handling practices and vendor accountability.",
+        action:"✅ Conducted in-depth research under Paula Dewitte at Texas A&M on U.S. food safety laws, vendor practices, and health outcomes.\n✅ Built a React-based web app featuring a self-assessment quiz, educational modules on hygiene, PPE, and alcohol safety.\n✅ Embedded a Power BI dashboard to track vendor inspection trends and food expiry compliance across public venues.\n✅ Synthesized data from case studies and CDC reports to inform content and insights.",
+        result: "🚀 The project raised awareness among students, staff, and event organizers:\n ✅ Delivered a scalable, mobile-friendly learning experience.\n✅ Power BI report enabled institutions to identify high-risk vendors and visualize compliance patterns.\n✅ Bridged academic research and practical application using accessible tech.",
+      },
+    },
   };
 
   const project = projectInfo[id];
