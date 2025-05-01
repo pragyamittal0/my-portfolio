@@ -41,6 +41,13 @@ const Project = () => {
         detail:"An AI-driven system that curates tailored learning resources based on users’ knowledge levels and goals. It recommends courses, books, and videos from platforms like Coursera and Udemy, making self-paced learning more structured and engaging. 🚀",
         navigateTo: "/project-details/5",
     },
+    {
+      id: 6,
+      name: "Food Safety Awareness Platform",
+      image: "/image/p6.png",
+      detail:"Promoting safe food practices in public venues using research, web technology, and data visualization.",
+      navigateTo: "/project-details/6",
+  },
   ];
 
   const handleProjectClick = (project) => {
