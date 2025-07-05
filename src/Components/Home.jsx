@@ -21,8 +21,8 @@ const Home = () => {
         <div className="about-me-section">
           <h2 className="about-heading">About Me</h2>
           <p>
-            Howdy!<br /> I’m Pragya Mittal 👩‍💻, a passionate Master's student in 
-            Computer Science 🎓 at Texas A&M University 🤠.  
+            Howdy!<br /> I’m Pragya Mittal 👩‍💻, a passionate Graduate student in 
+            Computer Science 🎓 from Texas A&M University 🤠.  
             I specialize in AI 🤖, Data Science 📊, and leveraging technology for innovative problem-solving 💡.  
             I thrive on tackling complex challenges and transforming data into impactful solutions 🚀!
           </p>
