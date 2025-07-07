@@ -40,17 +40,6 @@ const Home = () => {
         </ul>
       </div>
 
-      {/* Extracurricular Activities Section */}
-      <div className="extra-curricular">
-        <h2>Extracurricular Activities 🎭</h2>
-        <ul>
-          <li>🧑‍⚖️ <b>Judge at HowdyHack (Texas A&M Hackathon)</b> – Evaluated projects on creativity, technical implementation, and real-world impact. Provided feedback to participants to help refine their ideas.</li>
-          <li>🚀 <b>MLH Hackathon Enthusiast</b> – Built AI-powered applications & chatbots.</li>
-          <li>📝 <b>Conference Presenter</b> – Presented my research paper (AlgoViz) at the <i>Fourth International Conference on Emerging Research in Electronics, Computer Science, and Technology</i>.</li>
-          <li>🌍 <b>Volunteering</b> – Led a women's group for bootcamp learning and tech mentoring.</li>
-        </ul>
-      </div>
-
       {/* Awards & Recognitions Section */}
       <div className="awards-recognition">
         <h2>Awards & Recognitions 🏆</h2>
@@ -58,6 +47,17 @@ const Home = () => {
           <li>🎓 <b>Fellowship Scholarship (2023-2024)</b> – Recognized for academic excellence and contributions to the field.</li>
           <li>🚀 <b>Top 4 - HackYuva Hackathon</b> – Secured a top-4 position in an intense innovation-driven competition.</li>
           <li>🏅 <b>Top 10 - APIHacks</b> – Achieved a top-10 position in the hackathon conducted by IEEE Chandigarh University.</li>
+        </ul>
+      </div>
+
+       {/* Extracurricular Activities Section */}
+      <div className="extra-curricular">
+        <h2>Extracurricular Activities 🎭</h2>
+        <ul>
+          <li>🧑‍⚖️ <b>Judge at HowdyHack (Texas A&M Hackathon)</b> – Evaluated projects on creativity, technical implementation, and real-world impact. Provided feedback to participants to help refine their ideas.</li>
+          <li>🚀 <b>MLH Hackathon Enthusiast</b> – Built AI-powered applications & chatbots.</li>
+          <li>📝 <b>Conference Presenter</b> – Presented my research paper (AlgoViz) at the <i>Fourth International Conference on Emerging Research in Electronics, Computer Science, and Technology</i>.</li>
+          <li>🌍 <b>Volunteering</b> – Led a women's group for bootcamp learning and tech mentoring.</li>
         </ul>
       </div>
 
