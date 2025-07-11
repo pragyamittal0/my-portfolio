@@ -1,7 +1,7 @@
 
 # Pragya Mittal • Portfolio
 
-🚀 Visit it live: [pragyamittal.netlify.app](https://pragyamittal.netlify.app)
+🚀 Visit it live: [pragyamittal :)](https://pragyamittal.netlify.app)
 
 ---
 
