@@ -91,4 +91,3 @@ Open-source under the [MIT License](LICENSE)
 
 Thanks for taking the time to explore my portfolio! Always happy to chat about React, Reccomendation Systems, Chatbots, or potential collaborations.
 
-— **Pragya Mittal**
