@@ -6,7 +6,7 @@
 ---
 
 ## 💁‍♀️ About Me
-I’m Pragya Mittal, a graduate student from Texas A&M University. I'm passionate about AI and integrating web apps with React and exploring new technologies. You can explore my journey, skills, and projects here.
+I’m Pragya Mittal, a graduate student from Texas A&M University(MS in CS may'25). I'm passionate about AI and integrating web apps with React and exploring new technologies. You can explore my journey, skills, and projects here.
 
 ---
 
