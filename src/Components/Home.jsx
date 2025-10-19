@@ -34,6 +34,7 @@ const Home = () => {
         <ul>
           <li>💻 <b>Programming:</b> Python, JavaScript, C++</li>
           <li>🤖 <b>AI & Machine Learning:</b> TensorFlow, PyTorch, Scikit-Learn, BERT-transformer, Chatgpt API, NLP</li>
+          <li>💻 <b>Data Engineering & Cloud:</b> AWS (S3, Lambda, Glue, Athena, CloudWatch), GCP, API Integration, Web Scraping (BeautifulSoup) </li>
           <li>📊 <b>Data Science & Analytics:</b> Pandas, NumPy, Matplotlib, Postgre SQL, Web-Scraping</li>
           <li>🌐 <b>Web Development:</b> React.js, HTML, CSS, Bootstrap</li>
         </ul>
