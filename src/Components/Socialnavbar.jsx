@@ -12,7 +12,7 @@ const SocialNavbar = () => {
       <a href="https://github.com/pragyamittal0" target="_blank" rel="noopener noreferrer">
         <FaGithub className="social-icon" />
       </a>
-      <a href="https://drive.google.com/file/d/1MJ574faiEu4FHdbBglrKWNmgkKtWUmnI/view?usp=sharing" download target="_blank" rel="noopener noreferrer">
+      <a href="https://drive.google.com/file/d/1lqvT13mxj75W1svKJ9DY3gW4cWgrh0yA/view?usp=sharing" download target="_blank" rel="noopener noreferrer">
         <FaFilePdf className="social-icon" />
       </a>
       </div>
