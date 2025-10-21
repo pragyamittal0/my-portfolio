@@ -8,7 +8,7 @@ const Experience = () => {
       duration: "September, 2025 - Present",
       institution: "Emotionall",
       description:
-        "Led integration of Admin Panel, MixPanel, RevenueCat, and OneSignal, defining scalable data pipelines, secure APIs, and cross-tool syncing architecture—achieved 99.9% data reliability and reduced debugging time by 30%.Developing a Gamification Progress Tracker algorithm for a mental wellness app to drive habit formation—designing XP systems,streak-based rewards, milestone tracking, and emotional insight reports to improve engagement and retention. Performed data scraping of oil \& gas firms and unit testing of frontend events, ensuring analytics accuracy and schema consistency.",
+        "Led integration of Admin Panel, MixPanel, RevenueCat, and OneSignal, defining scalable data pipelines, secure APIs, and cross-tool syncing architecture—achieved 99.9% data reliability and reduced debugging time by 30%. Developing a Gamification Progress Tracker algorithm for a mental wellness app to drive habit formation—designing XP systems,streak-based rewards, milestone tracking, and emotional insight reports to improve engagement and retention. Performed data scraping of oil & gas firms and unit testing of frontend events, ensuring analytics accuracy and schema consistency.",
     },
     {
       title: "Software Engineer - GenAI",
