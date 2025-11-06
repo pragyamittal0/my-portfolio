@@ -4,18 +4,18 @@ import "./Experience.css"; // Importing the CSS file
 const Experience = () => {
   const ExperienceData = [
     {
-      title: "Machine Learning Engineer/ data scientist/ data engineer",
-      duration: "September, 2025 - Present",
-      institution: "Emotionall",
-      description:
-        "Led integration of Admin Panel, MixPanel, RevenueCat, and OneSignal, defining scalable data pipelines, secure APIs, and cross-tool syncing architecture—achieved 99.9% data reliability and reduced debugging time by 30%. Developing a Gamification Progress Tracker algorithm for a mental wellness app to drive habit formation—designing XP systems,streak-based rewards, milestone tracking, and emotional insight reports to improve engagement and retention. Performed data scraping of oil & gas firms and unit testing of frontend events, ensuring analytics accuracy and schema consistency.",
-    },
-    {
       title: "Software Engineer - GenAI",
       duration: "September, 2025 - Present",
       institution: "Saayam For All",
       description:
         "I helped build a tracking system to measure both speed and quality across LLMs—capturing TTFT/TTLT, tokens per second, token counts, temperature, and a simple quality score—then ran batch evaluations on roughly 200 prompts × 1,000 queries to benchmark models and prompts. I also created reusable prompt templates with clean Markdown rendering so answers stay consistent and easy to scan. Together, these changes reduced manual editing time by 30–40% and made it much faster to compare providers and roll out prompt updates.",
+    },
+    {
+      title: "Machine Learning Engineer/ data scientist/ data engineer",
+      duration: "September, 2025 - November, 2025",
+      institution: "Emotionall",
+      description:
+        "Led integration of Admin Panel, MixPanel, RevenueCat, and OneSignal, defining scalable data pipelines, secure APIs, and cross-tool syncing architecture—achieved 99.9% data reliability and reduced debugging time by 30%. Developing a Gamification Progress Tracker algorithm for a mental wellness app to drive habit formation—designing XP systems,streak-based rewards, milestone tracking, and emotional insight reports to improve engagement and retention. Performed data scraping of oil & gas firms and unit testing of frontend events, ensuring analytics accuracy and schema consistency.",
     },
     {
       title: "Graduate Research Assistant – AI-Driven Financial Analysis",
