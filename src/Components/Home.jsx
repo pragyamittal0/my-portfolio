@@ -21,9 +21,9 @@ const Home = () => {
         <div className="about-me-section">
           <h2 className="about-heading">About Me</h2>
           <p>
-            Howdy!<br /> I’m Pragya Mittal 👩‍💻—a Texas A&M CS grad (M.S., May 2025 🎓) who loves turning messy data into clear, scalable AI solutions🤖.
-            I work across ML, analytics, and experimentation—building models, clean pipelines, and human-friendly insights that move metrics.
-            When I’m not prototyping, I’m polishing: tests, docs, and dashboards that teams actually use. Let’s build something useful. 🚀
+            Howdy!<br /> I’m Pragya Mittal👩‍💻, a Texas A&M CS grad (M.S., May 2025 🎓) who loves turning messy data into clear, scalable AI solutions🤖.
+            I work across ML, analytics, and experimentation—building models, clean pipelines, and human-friendly insights that move metrics
+            when I’m not prototyping, I’m polishing: tests, docs, and dashboards that teams actually use. Let’s build something useful. 🚀
           </p>
         </div>
       </div>
