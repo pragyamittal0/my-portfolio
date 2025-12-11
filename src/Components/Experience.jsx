@@ -7,65 +7,109 @@ const Experience = () => {
       title: "Software Engineer - GenAI",
       duration: "September, 2025 - Present",
       institution: "Saayam For All",
-      description:
-        "I helped build a tracking system to measure both speed and quality across LLMs—capturing TTFT/TTLT, tokens per second, token counts, temperature, and a simple quality score—then ran batch evaluations on roughly 200 prompts × 1,000 queries to benchmark models and prompts. I also created reusable prompt templates with clean Markdown rendering so answers stay consistent and easy to scan. Together, these changes reduced manual editing time by 30–40% and made it much faster to compare providers and roll out prompt updates.",
+      description: [
+        "Built a tracking system to measure TTFT/TTLT, tokens per second, token counts, temperature, and quality scores across LLMs.",
+        "Ran large-scale batch evaluations on ~200 prompts × 1,000 queries to benchmark models and prompts.",
+        "Created reusable prompt templates with clean Markdown rendering to maintain consistent and readable outputs.",
+        "Reduced manual editing time by 30–40% and accelerated model comparison and rollout processes."
+      ],
+      techStack:
+        "Python, OpenAI API, Pandas, NumPy, REST APIs, Markdown"
     },
     {
       title: "Machine Learning Engineer/ data scientist/ data engineer",
       duration: "September, 2025 - November, 2025",
       institution: "Emotionall",
-      description:
-        "Led integration of Admin Panel, MixPanel, RevenueCat, and OneSignal, defining scalable data pipelines, secure APIs, and cross-tool syncing architecture—achieved 99.9% data reliability and reduced debugging time by 30%. Developing a Gamification Progress Tracker algorithm for a mental wellness app to drive habit formation—designing XP systems,streak-based rewards, milestone tracking, and emotional insight reports to improve engagement and retention. Performed data scraping of oil & gas firms and unit testing of frontend events, ensuring analytics accuracy and schema consistency.",
+      description: [
+        "Led integration of Admin Panel, MixPanel, RevenueCat, and OneSignal—building scalable data pipelines and secure APIs.",
+        "Designed cross-tool syncing architecture achieving 99.9% data reliability and reducing debugging time by 30%.",
+        "Developed a Gamification Progress Tracker algorithm: XP logic, streak rewards, milestone tracking, and emotional insight reporting.",
+        "Performed data scraping of oil & gas firms and implemented unit tests for frontend events to ensure schema consistency."
+      ],
+      techStack:
+        "Python, SQL, Mixpanel, RevenueCat, OneSignal, REST APIs, AWS"
     },
     {
       title: "Graduate Research Assistant – AI-Driven Financial Analysis",
       duration: "August - October, 2024",
       institution: "Mays Business School",
-      description:
-        "I automated the collection and analysis of financial data from multiple online sources using the Beautiful Soup Python library, which streamlined the data extraction process and reduced manual collection time by 35%, significantly improving data accuracy. Additionally, I implemented a secured ChatGPT API to enhance client satisfaction by 25%, providing more accurate financial reports and actionable insights that helped clients make informed decisions more effectively.",
+      description: [
+        "Automated financial data extraction using BeautifulSoup, reducing manual collection time by 35% and increasing accuracy.",
+        "Implemented secured ChatGPT API workflows to deliver enhanced financial summaries.",
+        "Increased client satisfaction by 25% through more accurate reports and actionable insights."
+      ],
+      techStack:
+        "Python, BeautifulSoup, Pandas, NumPy, ChatGPT API"
     },
     {
       title: "Data Analyst (Student Assistant)",
       duration: "June - August, 2024",
       institution: "The Stochastic Geomechanics Laboratory",
-      description:
-        "Developed a Gini index model to measure and visualize resource distribution in pharma supply chain projects, improving operational efficiency and reducing resource allocation time by 25%. Analyzed the decline in Cisplatin drug usage using Python and ArcGIS, enhancing stakeholder engagement by 40% through data-driven storytelling. Created advanced data visualizations with Matplotlib to simplify complex pharma supply chain data, leading to a 20% reduction in analysis time and improved decision-making.",
-      link: "https://drive.google.com/file/d/1oTop3bsrHFAoL8DbRUpfrIlOMk-BteVD/view?usp=sharing",
-    },
+      description: [
+        "Developed a Gini index model to measure and visualize resource distribution for pharma supply chain projects.",
+        "Improved operational efficiency and reduced resource allocation time by 25%.",
+        "Analyzed Cisplatin drug decline using Python and ArcGIS—improving stakeholder engagement by 40% through data storytelling.",
+        "Built advanced visualizations using Matplotlib to simplify complex insights, reducing analysis time by 20%."
+      ],
+      techStack:
+        "Python, ArcGIS, Matplotlib, Pandas, NumPy",
+      link: "https://drive.google.com/file/d/1oTop3bsrHFAoL8DbRUpfrIlOMk-BteVD/view?usp=sharing"
+    }
   ];
 
   const researchData = [
     {
-      title: "Empirical Evaluation of Tetrad Optimization Methods for Test Case Selection and Prioritization",
+      title:
+        "Empirical Evaluation of Tetrad Optimization Methods for Test Case Selection and Prioritization",
       mentor: "Dr Nishtha Jatana",
-      description:
-        "This research paper aimed to empirically evaluate the effectiveness of various optimization methods for test case selection and prioritization in software testing. By integrating machine learning and artificial intelligence, I analyzed different approaches to enhance the efficiency of test case execution. The study provided quantifiable insights into improving software testing processes, reducing redundancy, and enhancing fault detection rates.",
+      description: [
+        "Evaluated multiple optimization methods for software test case selection and prioritization.",
+        "Integrated ML and AI approaches to analyze execution efficiency and fault detection.",
+        "Produced quantifiable insights that improved software testing processes and reduced redundancy."
+      ],
+      techStack:
+        "Python, Machine Learning, Optimization Techniques, Scikit-learn"
     },
     {
       title: "AlgoViz - Algorithm Visualizer",
       mentor: "Dr. Geetika Dhand",
-      description:
-        "AlgoViz is an interactive algorithm visualization tool designed to make learning and understanding algorithms more accessible. Developed using the MERN stack (MongoDB, Express, React, and Node.js), this project transformed traditional instructional methods by providing real-time visual representations of algorithmic processes. Through this research, I explored experiential technology and user experience design, ensuring an intuitive interface that helps students grasp complex algorithms with ease.",
-    },
+      description: [
+        "Built an interactive algorithm visualization tool using the MERN stack.",
+        "Enabled real-time representation of algorithm execution to improve comprehension.",
+        "Designed an intuitive UI that enhances experiential learning for complex algorithms."
+      ],
+      techStack:
+        "MongoDB, Express, React, Node.js (MERN stack)"
+    }
   ];
 
-  // Open Source Data
   const openSourceData = [
     {
       title: "MLH: Major League Hacking",
-      subdescription: "A global student hacker community and organization that empowers the next generation of tech talent through hackathons, conferences, and its flagship Fellowship program, with the mission to empower hackers.",
-      description:
-        "Participated in Global MLH (Major League Hacking) Week 🌍, where we explored exciting technologies such as the Twilio API and Sandbox for building real-time communication applications. During the week, I had the opportunity to work on innovative projects like developing an Instagram Bot 📸 and a Discord Bot 🤖, both of which integrated seamlessly with Twilio’s powerful tools to automate and enhance user interactions.",
-        link: "https://github.com/pragyamittal0/Instabot",
+      subdescription:
+        "A global student hacker community empowering the next generation of tech talent through hackathons, conferences, and the Fellowship program.",
+      description: [
+        "Participated in Global MLH Week exploring Twilio API and Sandbox for real-time communication applications.",
+        "Built an Instagram Bot 📸 and a Discord Bot 🤖 integrated with Twilio for automated user interactions.",
+        "Gained hands-on experience with rapid prototyping and API-driven automation."
+      ],
+      techStack:
+        "Python, JavaScript, Twilio API, Discord API, REST APIs",
+      link: "https://github.com/pragyamittal0/Instabot"
     },
     {
       title: "Hacktoberfest",
-      subdescription: "Hacktoberfest is an open-source celebration that brings people together from all over the world to make a positive impact on open source.",
-      description:
-        "Contributed to multiple repositories during Hacktoberfest 🎉, where I not only submitted pull requests to enhance various open-source projects but also deepened my understanding of documentation 📚. Through this experience, I learned how to write clear, concise documentation that helps other developers navigate and contribute to projects more effectively. It was a fantastic opportunity to give back to the open-source community and sharpen my skills!",
-      link: "https://github.com/pragyamittal0/Hacktoberfest",
-    },
-    
+      subdescription:
+        "Hacktoberfest brings global developers together to contribute and improve open-source projects.",
+      description: [
+        "Contributed to multiple repositories with meaningful pull requests to enhance open-source tools.",
+        "Strengthened documentation-writing skills—creating clean, helpful, and maintainable docs.",
+        "Improved understanding of collaborative development and community-driven workflows."
+      ],
+      techStack:
+        "Git, GitHub, Markdown, Open-source workflows, Pull Requests",
+      link: "https://github.com/pragyamittal0/Hacktoberfest"
+    }
   ];
 
   return (
@@ -78,10 +122,27 @@ const Experience = () => {
               <h3 className="experience-heading">{exp.title}</h3>
               <p className="experience-institution">{exp.institution}</p>
               <p className="experience-duration">{exp.duration}</p>
-              <p className="experience-description">{exp.description}</p>
+
+              <ul className="experience-description">
+                {exp.description.map((point, i) => (
+                  <li key={i}>{point}</li>
+                ))}
+              </ul>
+
+              {exp.techStack && (
+                <p className="experience-description">
+                  <strong>Tech Stack:</strong> {exp.techStack}
+                </p>
+              )}
+
               {exp.link && (
                 <p>
-                  <a href={exp.link} className="experience-link" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href={exp.link}
+                    className="experience-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Learn More 🔗
                   </a>
                 </p>
@@ -97,21 +158,49 @@ const Experience = () => {
             <div key={index} className="experience-item">
               <h3 className="experience-heading">{mooc.title}</h3>
               <p className="experience-duration">{mooc.mentor}</p>
-              <p className="experience-description">{mooc.description}</p>
+
+              <ul className="experience-description">
+                {mooc.description.map((point, i) => (
+                  <li key={i}>{point}</li>
+                ))}
+              </ul>
+
+              {mooc.techStack && (
+                <p className="experience-description">
+                  <strong>Tech Stack:</strong> {mooc.techStack}
+                </p>
+              )}
             </div>
           ))}
         </div>
 
-        {/* Open Source Work Section */}
+        {/* Open Source Work */}
         <h2 className="experience-title">OPEN SOURCE WORK</h2>
         <div className="experience-timeline">
           {openSourceData.map((project, index) => (
             <div key={index} className="experience-item">
               <h3 className="experience-heading">{project.title}</h3>
               <p className="experience-description">{project.subdescription}</p>
-              <p className="experience-description">{project.description}</p>
+
+              <ul className="experience-description">
+                {project.description.map((point, i) => (
+                  <li key={i}>{point}</li>
+                ))}
+              </ul>
+
+              {project.techStack && (
+                <p className="experience-description">
+                  <strong>Tech Stack:</strong> {project.techStack}
+                </p>
+              )}
+
               <p>
-                <a href={project.link} className="experience-link" target="_blank" rel="noopener noreferrer">
+                <a
+                  href={project.link}
+                  className="experience-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   View Project 🔗
                 </a>
               </p>
