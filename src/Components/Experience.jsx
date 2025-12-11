@@ -14,7 +14,7 @@ const Experience = () => {
         "Reduced manual editing time by 30–40% and accelerated model comparison and rollout processes."
       ],
       techStack:
-        "Python, OpenAI API, Pandas, NumPy, REST APIs, Markdown"
+        "Python, OpenAI API, Pandas, NumPy, REST APIs, Markdown, Google Gemini"
     },
     {
       title: "Machine Learning Engineer/ data scientist/ data engineer",
@@ -24,17 +24,18 @@ const Experience = () => {
         "Led integration of Admin Panel, MixPanel, RevenueCat, and OneSignal—building scalable data pipelines and secure APIs.",
         "Designed cross-tool syncing architecture achieving 99.9% data reliability and reducing debugging time by 30%.",
         "Developed a Gamification Progress Tracker algorithm: XP logic, streak rewards, milestone tracking, and emotional insight reporting.",
-        "Performed data scraping of oil & gas firms and implemented unit tests for frontend events to ensure schema consistency."
+        "Performed data scraping of oil & gas firms and implemented unit tests for frontend events to ensure schema consistency.",
+        "Perfomed App testing using Testflight to ensure the working of the app."
       ],
       techStack:
-        "Python, SQL, Mixpanel, RevenueCat, OneSignal, REST APIs, AWS"
+        "Python, SQL, Mixpanel, RevenueCat, OneSignal, REST APIs, AWS(S3, lambda, api, grafana), API testing(postman), Testflight(app testing)"
     },
     {
       title: "Graduate Research Assistant – AI-Driven Financial Analysis",
       duration: "August - October, 2024",
       institution: "Mays Business School",
       description: [
-        "Automated financial data extraction using BeautifulSoup, reducing manual collection time by 35% and increasing accuracy.",
+        "Automated financial data(SEC/EDGAR) extraction using BeautifulSoup, reducing manual collection time by 35% and increasing accuracy.",
         "Implemented secured ChatGPT API workflows to deliver enhanced financial summaries.",
         "Increased client satisfaction by 25% through more accurate reports and actionable insights."
       ],
@@ -52,7 +53,7 @@ const Experience = () => {
         "Built advanced visualizations using Matplotlib to simplify complex insights, reducing analysis time by 20%."
       ],
       techStack:
-        "Python, ArcGIS, Matplotlib, Pandas, NumPy",
+        "Python, ArcGIS, Matplotlib, Pandas, NumPy, GoogleColab, Excel, Canva(Presentation)",
       link: "https://drive.google.com/file/d/1oTop3bsrHFAoL8DbRUpfrIlOMk-BteVD/view?usp=sharing"
     }
   ];
