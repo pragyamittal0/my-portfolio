@@ -8,9 +8,8 @@ const Experience = () => {
       duration: "December, 2025 - Present",
       institution: "Mays Business School(Dept of Marketing)",
       description: [
-        "Developed and implemented an automated data collection and analysis pipeline using Python (Selenium) and Google Colab.",
-        "It systematically scrape and process data from over 2,000 retail outlets for market analysis, successfully reducing manual data collection
-        time by 90% and generating key business insights that informed a new sales strategy and increased projected revenue by 5% ",
+      "Developed and implemented an automated data collection and analysis pipeline using Python (Selenium) and Google Colab.",
+      "Systematically scraped and processed data from over 2,000 retail outlets for market analysis, reducing manual data collection time by 90% and generating key business insights that informed a new sales strategy and increased projected revenue by 5%."
       ],
       techStack:
         "Python, Google Colab, Gemini"
