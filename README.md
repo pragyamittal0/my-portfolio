@@ -12,10 +12,10 @@ I’m Pragya Mittal, a graduate student from Texas A&M University(MS in CS may'2
 
 ## 🧭 Site Structure
 
-- **Home** – Brief intro and welcome.
-- **About** – My background, education, and interests.
-- **Skills** – My tech toolbox: Python, JavaScript, React, Machine learning models, and more.
-- **Portfolio** – Showcase of projects.
+- **About** – Brief intro and welcome.
+- **Education** – My education, and certifications.
+- **Experience** – Detail of my work at different levels and industries.
+- **Projects** – Showcase of projects.
 - **Contact** – Get in touch via form or email.
 
 ---
