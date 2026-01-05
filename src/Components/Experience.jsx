@@ -4,17 +4,6 @@ import "./Experience.css"; // Importing the CSS file
 const Experience = () => {
   const ExperienceData = [
     {
-      title: "Data Analyst",
-      duration: "December, 2025 - Present",
-      institution: "Mays Business School(Dept of Marketing)",
-      description: [
-      "Developed and implemented an automated data collection and analysis pipeline using Python (Selenium) and Google Colab.",
-      "Systematically scraped and processed data from over 2,000 retail outlets for market analysis, reducing manual data collection time by 90% and generating key business insights that informed a new sales strategy and increased projected revenue by 5%."
-      ],
-      techStack:
-        "Python, Google Colab, Gemini"
-    },
-    {
       title: "Software Engineer - GenAI",
       duration: "September, 2025 - Present",
       institution: "Saayam For All",
@@ -26,6 +15,17 @@ const Experience = () => {
       ],
       techStack:
         "Python, OpenAI API, Pandas, NumPy, REST APIs, Markdown, Google Gemini"
+    },
+    {
+      title: "Data Analyst",
+      duration: "December, 2025 - January,2026",
+      institution: "Mays Business School(Dept of Marketing)",
+      description: [
+      "Developed and implemented an automated data collection and analysis pipeline using Python (Selenium) and Google Colab.",
+      "Systematically scraped and processed data from over 2,000 retail outlets for market analysis, reducing manual data collection time by 90% and generating key business insights that informed a new sales strategy and increased projected revenue by 5%."
+      ],
+      techStack:
+        "Python, Google Colab, Gemini"
     },
     {
       title: "Machine Learning Engineer/ data scientist/ data engineer",
