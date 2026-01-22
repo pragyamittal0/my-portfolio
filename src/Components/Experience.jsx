@@ -60,7 +60,7 @@ const Experience = () => {
       description: [
         "Developed a Gini index model to measure and visualize resource distribution for pharma supply chain projects.",
         "Improved operational efficiency and reduced resource allocation time by 25%.",
-        "Analyzed Cisplatin drug decline using Python and ArcGIS—improving stakeholder engagement by 40% through data storytelling.",
+        "Analyzed Cisplatin drug decline using Python and ArcGIS which improved stakeholder engagement by 40% through data storytelling.",
         "Built advanced visualizations using Matplotlib to simplify complex insights, reducing analysis time by 20%."
       ],
       techStack:
