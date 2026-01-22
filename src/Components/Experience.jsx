@@ -43,7 +43,7 @@ const Experience = () => {
     },
     {
       title: "Graduate Research Assistant – AI-Driven Financial Analysis",
-      duration: "August - October, 2024",
+      duration: "August, 2024 - October, 2024",
       institution: "Mays Business School",
       description: [
         "Automated financial data(SEC/EDGAR) extraction using BeautifulSoup, reducing manual collection time by 35% and increasing accuracy.",
