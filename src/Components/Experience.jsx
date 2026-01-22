@@ -5,7 +5,7 @@ const Experience = () => {
   const ExperienceData = [
     {
       title: "Software Engineer - GenAI",
-      duration: "September, 2025 - Present",
+      duration: "September, 2025 - January, 2026",
       institution: "Saayam For All",
       description: [
         "Built a tracking system to measure TTFT/TTLT, tokens per second, token counts, temperature, and quality scores across LLMs.",
@@ -55,7 +55,7 @@ const Experience = () => {
     },
     {
       title: "Data Analyst (Student Assistant)",
-      duration: "June - August, 2024",
+      duration: "May, 2024 - August, 2024",
       institution: "The Stochastic Geomechanics Laboratory",
       description: [
         "Developed a Gini index model to measure and visualize resource distribution for pharma supply chain projects.",
